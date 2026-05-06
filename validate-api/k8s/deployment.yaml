@@ -14,8 +14,7 @@ spec:
     spec:
       containers:
       - name: validate-api
-        # TODO: Replace <rollnum> with your actual roll number
-        image: crpa4<rollnum>.azurecr.io/validate-api:v1
+        image: pa426100007.azurecr.io/validate-api:v1
         ports:
         - containerPort: 8080
         resources:
